@@ -157,6 +157,46 @@ skinColors[4] = make_colour_rgb(60,40,20);
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///filling storage for classes and skills
+class1Index = 0;
+make_array_2d(2,5,class1Index);
+//name, skill 1, skill 2, skill 3, image icon
+array_put_row_class1(0,"Arcanist",0,1,2,3);
+array_put_row_class1(1,"Fighter",15,16,17,0);
+
+class2Index = 0;
+make_array_2d(4,5,class2Index);
+array_put_row_class2(0,"Red mage",3,4,5,4);
+array_put_row_class2(1,"Rune mage",6,7,8,5);
+array_put_row_class2(2,"Footman",18,19,20,1);
+array_put_row_class2(3,"Warrior",21,22,23,2);
+
+class3Index = 0;
+make_array_2d(4,5,class3Index);
+array_put_row_class3(0,"Red wizard",9,10,11,4);
+array_put_row_class3(1,"Rune master",12,13,14,5);
+array_put_row_class3(2,"Knight",24,25,26,1);
+array_put_row_class3(3,"Berserker",27,28,29,2);
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="3" enumb="0">
       <action>

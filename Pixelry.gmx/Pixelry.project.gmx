@@ -73,6 +73,9 @@
     <script>scripts\array_put_row_armor_helmet.gml</script>
     <script>scripts\array_put_row_armor_torso.gml</script>
     <script>scripts\array_put_row_armor_legs.gml</script>
+    <script>scripts\array_put_row_class1.gml</script>
+    <script>scripts\array_put_row_class2.gml</script>
+    <script>scripts\array_put_row_class3.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
@@ -92,6 +95,7 @@
     <object>objects\obj_gui_button</object>
     <object>objects\obj_gui_vendor</object>
     <object>objects\obj_gui_gear_vendor</object>
+    <object>objects\obj_gui_class_vendor</object>
     <object>objects\obj_hitbox</object>
     <object>objects\obj_ambient_firefly</object>
     <object>objects\obj_effect_arcane_bolt</object>
