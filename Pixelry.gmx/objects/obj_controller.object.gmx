@@ -193,6 +193,9 @@ array_put_row_class3(0,"Red wizard",9,10,11,4);
 array_put_row_class3(1,"Rune master",12,13,14,5);
 array_put_row_class3(2,"Knight",24,25,26,1);
 array_put_row_class3(3,"Berserker",27,28,29,2);
+
+skillIndex = 0;
+make_array_2d(4,30,skillIndex);
 </string>
           </argument>
         </arguments>

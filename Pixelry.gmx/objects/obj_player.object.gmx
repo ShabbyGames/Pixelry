@@ -159,6 +159,7 @@ if !collision_line(x-8,y+1,x+7,y+1,obj_static_parent,true,false)
 }
 
 if keyboard_check_pressed(ord("V")) and global.playerFocus = 1 instance_create(view_xview,view_yview,obj_gui_gear_vendor);
+if keyboard_check_pressed(ord("B")) and global.playerFocus = 1 instance_create(view_xview,view_yview,obj_gui_class_vendor);
 
 if keyboard_check(vk_left) or keyboard_check(vk_right)
 {

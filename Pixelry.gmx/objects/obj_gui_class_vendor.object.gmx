@@ -133,30 +133,10 @@ else
 if curChoice = 4
 {
     ID1SET4.image_index = 1;
-    ID2SET4.image_index = 1;
 }
 else
 {
     ID1SET4.image_index = 0;
-    ID2SET4.image_index = 0;
-}
-if curChoice = 5
-{
-    ID1SET5.image_index = 1;
-    ID2SET5.image_index = 1;
-}
-else
-{
-    ID1SET5.image_index = 0;
-    ID2SET5.image_index = 0;
-}
-if curChoice = 6
-{
-    ID1SET6.image_index = 1;
-}
-else
-{
-    ID1SET6.image_index = 0;
 }
 </string>
           </argument>
@@ -181,15 +161,17 @@ else
           <argument>
             <kind>1</kind>
             <string>draw_set_color(make_color_rgb(200,200,50));
-draw_text(view_xview + 100, view_yview + 20,array_height_2d(obj_controller.helmetIndex));
-draw_text(view_xview + 100, view_yview + 50,array_height_2d(obj_controller.torsoIndex));
-draw_text(view_xview + 100, view_yview + 80,array_height_2d(obj_controller.legsIndex));
-draw_text(view_xview + 100, view_yview + 110,array_height_2d(obj_controller.weaponIndex));
+draw_text(view_xview + 100, view_yview + 50,array_height_2d(obj_controller.class1Index));
+draw_text(view_xview + 100, view_yview + 80,array_height_2d(obj_controller.class2Index));
+draw_text(view_xview + 100, view_yview + 110,array_height_2d(obj_controller.class3Index));
 
-draw_text(view_xview + 150, view_yview + 20,global.playerEquipHead);
-draw_text(view_xview + 150, view_yview + 50,global.playerEquipTorso);
-draw_text(view_xview + 150, view_yview + 80,global.playerEquipLegs);
-draw_text(view_xview + 150, view_yview + 110,global.playerEquipRightHand);
+draw_text(view_xview + 150, view_yview + 50,global.playerClass1);
+draw_text(view_xview + 150, view_yview + 80,global.playerClass2);
+draw_text(view_xview + 150, view_yview + 110,global.playerClass3);
+
+draw_sprite(spr_gui_class_icons,obj_controller.class1Index[global.playerClass1,4],view_xview + 125, view_yview + 50);
+draw_sprite(spr_gui_class_icons,obj_controller.class2Index[global.playerClass2,4],view_xview + 125, view_yview + 80);
+draw_sprite(spr_gui_class_icons,obj_controller.class3Index[global.playerClass3,4],view_xview + 125, view_yview + 110);
 </string>
           </argument>
         </arguments>
@@ -264,14 +246,14 @@ else curChoice = 1;
             <kind>1</kind>
             <string>switch(curChoice)
 {
-    case 1: if global.playerEquipHead &lt; array_height_2d(obj_controller.helmetIndex)
-                global.playerEquipHead += 1;
+    case 1: if global.playerClass1 &lt; array_height_2d(obj_controller.class1Index)-1
+                global.playerClass1 += 1;
     break;
-    case 2: if global.playerEquipTorso &lt; array_height_2d(obj_controller.torsoIndex)
-                global.playerEquipTorso += 1;
+    case 2: if global.playerClass2 &lt; array_height_2d(obj_controller.class2Index)-1
+                global.playerClass2 += 1;
     break;
-    case 3: if global.playerEquipLegs &lt; array_height_2d(obj_controller.legsIndex)
-                global.playerEquipLegs += 1;
+    case 3: if global.playerClass3 &lt; array_height_2d(obj_controller.class3Index)-1
+                global.playerClass3 += 1;
     break;
 }
 </string>
@@ -322,11 +304,11 @@ else curChoice = choices;
             <kind>1</kind>
             <string>switch(curChoice)
 {
-    case 1: if global.playerEquipHead &gt; 0 global.playerEquipHead -= 1;
+    case 1: if global.playerClass1 &gt; 0 global.playerClass1 -= 1;
     break;
-    case 2: if global.playerEquipTorso &gt; 0 global.playerEquipTorso -= 1;
+    case 2: if global.playerClass2 &gt; 0 global.playerClass2 -= 1;
     break;
-    case 3: if global.playerEquipLegs &gt; 0 global.playerEquipLegs -= 1;
+    case 3: if global.playerClass3 &gt; 0 global.playerClass3 -= 1;
     break;
 }
 </string>
