@@ -3,43 +3,82 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="1" name="datafiles">
+    <datafile>
+      <name>avast__Free_Antivirus.lnk</name>
+      <exists>-1</exists>
+      <size>1989</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>avast__Free_Antivirus.lnk</filename>
+    </datafile>
+  </datafiles>
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_grass_surface_static</sprite>
-    <sprite>sprites\spr_grass_block</sprite>
-    <sprite>sprites\spr_dirt_block_shaded</sprite>
-    <sprite>sprites\spr_firefly</sprite>
-    <sprite>sprites\spr_brick</sprite>
-    <sprite>sprites\spr_door</sprite>
-    <sprite>sprites\spr_selection_masks</sprite>
-    <sprite>sprites\spr_roof</sprite>
-    <sprite>sprites\spr_character_body_male</sprite>
-    <sprite>sprites\spr_character_body_female</sprite>
-    <sprite>sprites\spr_overlay_hair_male</sprite>
-    <sprite>sprites\spr_overlay_hair_female</sprite>
-    <sprite>sprites\spr_overlay_shirt_male</sprite>
-    <sprite>sprites\spr_overlay_shirt_female</sprite>
-    <sprite>sprites\spr_overlay_pants_shoes_male</sprite>
-    <sprite>sprites\spr_overlay_pants_shoes_female</sprite>
-    <sprite>sprites\spr_overlay_sword1</sprite>
-    <sprite>sprites\spr_overlay_attack_sword</sprite>
-    <sprite>sprites\spr_mask_attack_sword</sprite>
+    <sprites name="vanity">
+      <sprite>sprites\spr_overlay_hair_male</sprite>
+      <sprite>sprites\spr_overlay_hair_female</sprite>
+      <sprite>sprites\spr_overlay_shirt_male</sprite>
+      <sprite>sprites\spr_overlay_shirt_female</sprite>
+      <sprite>sprites\spr_overlay_pants_shoes_male</sprite>
+      <sprite>sprites\spr_overlay_pants_shoes_female</sprite>
+    </sprites>
+    <sprites name="tiles">
+      <sprite>sprites\spr_grass_block</sprite>
+      <sprite>sprites\spr_grass_surface_static</sprite>
+      <sprite>sprites\spr_dirt_block_shaded</sprite>
+      <sprite>sprites\spr_brick</sprite>
+      <sprite>sprites\spr_roof</sprite>
+    </sprites>
+    <sprites name="interactives">
+      <sprite>sprites\spr_door</sprite>
+      <sprite>sprites\spr_selection_masks</sprite>
+    </sprites>
+    <sprites name="ambient">
+      <sprite>sprites\spr_firefly</sprite>
+    </sprites>
+    <sprites name="GUI">
+      <sprite>sprites\spr_gui_arrow</sprite>
+      <sprite>sprites\spr_button</sprite>
+      <sprite>sprites\spr_gui_button_done</sprite>
+      <sprite>sprites\spr_gui_class_icons</sprite>
+      <sprite>sprites\spr_gui_skill_icons</sprite>
+      <sprite>sprites\spr_gui_weapons_by_id</sprite>
+    </sprites>
+    <sprites name="level_barebones">
+      <sprite>sprites\spr_ind_floor</sprite>
+    </sprites>
+    <sprites name="combat_related">
+      <sprite>sprites\spr_overlay_attack_sword</sprite>
+      <sprite>sprites\spr_mask_attack_sword</sprite>
+      <sprite>sprites\spr_overlay_attack_zombie</sprite>
+    </sprites>
+    <sprites name="character_barebones">
+      <sprite>sprites\spr_character_body_male</sprite>
+      <sprite>sprites\spr_character_body_female</sprite>
+    </sprites>
+    <sprites name="weapons">
+      <sprite>sprites\spr_overlay_sword1</sprite>
+    </sprites>
+    <sprites name="monsters">
+      <sprite>sprites\spr_monster_slime</sprite>
+      <sprite>sprites\spr_monster_zombie</sprite>
+    </sprites>
     <sprite>sprites\spr_overlay_helmet1_walk</sprite>
     <sprite>sprites\spr_overlay_helmet2_walk</sprite>
     <sprite>sprites\spr_overlay_helmet3_walk</sprite>
     <sprite>sprites\spr_overlay_body1_walk</sprite>
     <sprite>sprites\spr_overlay_legs1_walk</sprite>
-    <sprite>sprites\spr_gui_arrow</sprite>
-    <sprite>sprites\spr_gui_button_done</sprite>
-    <sprite>sprites\spr_button</sprite>
-    <sprite>sprites\spr_gui_class_icons</sprite>
-    <sprite>sprites\spr_gui_skill_icons</sprite>
-    <sprite>sprites\spr_gui_weapons_by_id</sprite>
-    <sprite>sprites\spr_ind_floor</sprite>
-    <sprite>sprites\spr_monster_slime</sprite>
-    <sprite>sprites\spr_monster_zombie</sprite>
-    <sprite>sprites\spr_overlay_attack_zombie</sprite>
     <sprite>sprites\spr_effect_stun</sprite>
     <sprite>sprites\spr_effect_fire</sprite>
     <sprite>sprites\spr_particle_arcane_bolt</sprite>
