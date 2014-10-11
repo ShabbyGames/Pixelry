@@ -25,13 +25,19 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="vanity">
+    <sprites name="overlays">
       <sprite>sprites\spr_overlay_hair_male</sprite>
+      <sprite>sprites\spr_overlay_helmet_male_0</sprite>
       <sprite>sprites\spr_overlay_hair_female</sprite>
+      <sprite>sprites\spr_overlay_helmet_female_0</sprite>
       <sprite>sprites\spr_overlay_shirt_male</sprite>
+      <sprite>sprites\spr_overlay_armor_male_0</sprite>
       <sprite>sprites\spr_overlay_shirt_female</sprite>
+      <sprite>sprites\spr_overlay_armor_female_0</sprite>
       <sprite>sprites\spr_overlay_pants_shoes_male</sprite>
+      <sprite>sprites\spr_overlay_legs_male_0</sprite>
       <sprite>sprites\spr_overlay_pants_shoes_female</sprite>
+      <sprite>sprites\spr_overlay_legs_female_0</sprite>
     </sprites>
     <sprites name="tiles">
       <sprite>sprites\spr_grass_block</sprite>
@@ -54,6 +60,8 @@
       <sprite>sprites\spr_gui_class_icons</sprite>
       <sprite>sprites\spr_gui_skill_icons</sprite>
       <sprite>sprites\spr_gui_weapons_by_id</sprite>
+      <sprite>sprites\spr_gui_inventory_slot</sprite>
+      <sprite>sprites\spr_gui_item_icon</sprite>
     </sprites>
     <sprites name="level_barebones">
       <sprite>sprites\spr_ind_floor</sprite>
@@ -85,6 +93,8 @@
     <sprite>sprites\spr_camera</sprite>
     <sprite>sprites\spr_camera_position</sprite>
     <sprite>sprites\spr_font_pixelry1</sprite>
+    <sprite>sprites\editpsrite</sprite>
+    <sprite>sprites\spr_ef_wham</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_flower_grass</background>
@@ -115,6 +125,7 @@
     <script>scripts\array_put_row_class1.gml</script>
     <script>scripts\array_put_row_class2.gml</script>
     <script>scripts\array_put_row_class3.gml</script>
+    <script>scripts\find_item.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
@@ -135,17 +146,25 @@
     <object>objects\obj_gui_vendor</object>
     <object>objects\obj_gui_gear_vendor</object>
     <object>objects\obj_gui_class_vendor</object>
+    <object>objects\obj_gui_inventory</object>
     <object>objects\obj_hitbox</object>
     <object>objects\obj_ambient_firefly</object>
     <object>objects\obj_effect_arcane_bolt</object>
     <object>objects\obj_arcane_bolt</object>
     <object>objects\obj_effect_damage</object>
     <object>objects\obj_camera</object>
+    <object>objects\obj_gui_inventory_slot</object>
+    <object>objects\obj_item_pickup</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
     <room>rooms\room2</room>
+    <room>rooms\room3</room>
   </rooms>
+  <constants number="2">
+    <constant name="GM_build_date">41889.5220842361</constant>
+    <constant name="GM_version">'100'</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>

@@ -81,6 +81,17 @@
     <instance objName="obj_ambient_firefly" x="128" y="96" name="inst_D18E6F21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ambient_firefly" x="160" y="136" name="inst_6A8A7E85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ambient_firefly" x="200" y="144" name="inst_F369D6DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_item_pickup" x="8" y="144" name="inst_7027A703" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_item_pickup" x="48" y="144" name="inst_17C3106C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_item_pickup" x="88" y="144" name="inst_D29EA72A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_item_pickup" x="144" y="144" name="inst_0CC5D950" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_item_pickup" x="176" y="144" name="inst_CF6D06CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_item_pickup" x="224" y="144" name="inst_5E71042F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_item_pickup" x="24" y="104" name="inst_44B449C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_item_pickup" x="72" y="104" name="inst_82BE8CAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_item_pickup" x="136" y="104" name="inst_AB45D220" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_item_pickup" x="184" y="104" name="inst_1534E89E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_item_pickup" x="224" y="104" name="inst_14CE1E17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_blocks_shaded" x="0" y="184" w="8" h="8" xo="16" yo="0" id="10000049" name="inst_4DCF862F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
