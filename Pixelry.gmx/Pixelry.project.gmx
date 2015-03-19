@@ -73,6 +73,7 @@
     </sprites>
     <sprites name="character_barebones">
       <sprite>sprites\spr_character_body_male</sprite>
+      <sprite>sprites\spr_character_male_fighter</sprite>
       <sprite>sprites\spr_character_body_female</sprite>
     </sprites>
     <sprites name="weapons">
