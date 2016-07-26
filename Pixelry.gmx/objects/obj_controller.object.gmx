@@ -133,10 +133,12 @@ array_put_row_armor_legs(15,27,"Echo boots","cloth","light",20);
 hairStylesMale = 0;
 make_array(5,hairStylesMale)
 hairStylesMale[0] = spr_overlay_hair_male;
+hairStylesMale[1] = spr_overlay_hair_male0;
 
 hairStylesFemale = 0;
 make_array(5,hairStylesFemale)
 hairStylesFemale[0] = spr_overlay_hair_female;
+hairStylesFemale[1] = spr_overlay_hair_female0;
 
 hairColors = 0;
 make_array(5,hairColors);

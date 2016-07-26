@@ -45,8 +45,8 @@ global.playerClass2 = 0;
 global.playerClass3 = 0;
 global.playerClassProgress = 0;
 
-global.playerGender = 0;
-global.playerHairStyle = 0;
+global.playerGender = 1;
+global.playerHairStyle = 1;
 global.playerHairColor = 0;
 global.playerSkinColor = 2;
 
