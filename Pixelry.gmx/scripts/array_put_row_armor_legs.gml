@@ -4,4 +4,6 @@ legsIndex[argument0,1] = argument2;
 legsIndex[argument0,2] = argument3;
 legsIndex[argument0,3] = argument4;
 legsIndex[argument0,4] = argument5;
+legsIndex[argument0,5] = argument6;
+legsIndex[argument0,6] = argument7;
 //argument6[argument0,5] = argument7;

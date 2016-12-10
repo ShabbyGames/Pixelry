@@ -36,13 +36,14 @@
         <sprite>sprites\spr_overlay_hair_female1</sprite>
         <sprite>sprites\spr_overlay_hair_female2</sprite>
         <sprite>sprites\spr_overlay_helmet_female_0</sprite>
+        <sprite>sprites\spr_overlay_helmet_female_1</sprite>
+        <sprite>sprites\sprite57</sprite>
       </sprites>
       <sprites name="torso">
         <sprite>sprites\spr_overlay_shirt_male</sprite>
         <sprite>sprites\spr_overlay_armor_male_0</sprite>
         <sprite>sprites\spr_overlay_shirt_female</sprite>
         <sprite>sprites\spr_overlay_armor_female_0</sprite>
-        <sprite>sprites\sprite57</sprite>
       </sprites>
       <sprites name="legs">
         <sprite>sprites\spr_overlay_pants_shoes_male</sprite>
