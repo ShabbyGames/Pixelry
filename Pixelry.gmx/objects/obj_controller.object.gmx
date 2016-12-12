@@ -171,7 +171,7 @@ array_put_row_weapons(3,3,"Ring wand","sword","neutral",-1);
 
 make_array_2d(7,4,helmetIndex);
 //Index, Defense, Name, Type, Resistance Element, Resistance ammount, SpriteMale, SpriteFemale
-array_put_row_armor_helmet(0,2,"Leather Cap","hide","none",0,-1,-1);
+array_put_row_armor_helmet(0,2,"Leather Cap","hide","none",0,spr_overlay_helmet_male_0,spr_overlay_helmet_female_0);
 array_put_row_armor_helmet(1,5,"Iron helmet","alloy","none",0,-1,-1);
 
 array_put_row_armor_helmet(2,1,"Cloth bandana","cloth","none",0,-1,-1);
@@ -180,7 +180,7 @@ array_put_row_armor_helmet(3,2,"Headgear","cloth","none",0,-1,-1);
 
 make_array_2d(7,4,torsoIndex);
 //Index, Defense, Name, Type, Resistance Element, Resistance ammount, SpriteMale, SpriteFemale
-array_put_row_armor_torso(0,3,"Leather Chestpiece","hide","none",0,-1,-1);
+array_put_row_armor_torso(0,3,"Leather Chestpiece","hide","none",0,spr_overlay_armor_male_0,spr_overlay_armor_female_0);
 array_put_row_armor_torso(1,6,"Iron chestplate","alloy","none",0,-1,-1);
 
 array_put_row_armor_torso(2,2,"Cloth robe","cloth","none",0,-1,-1);
@@ -189,7 +189,7 @@ array_put_row_armor_torso(3,3,"Iron-threaded robe","cloth","none",0,-1,-1);
 
 make_array_2d(7,4,legsIndex);
 //Index, Defense, Name, Type, Resistance Element, Resistance ammount, SpriteMale, SpriteFemale
-array_put_row_armor_legs(0,2,"Leather Leggings","hide","none",0,-1,-1);
+array_put_row_armor_legs(0,2,"Leather Leggings","hide","none",0,spr_overlay_leggings_male_0,spr_overlay_armor_male_0);
 array_put_row_armor_legs(1,5,"Iron greaves","alloy","none",0,-1,-1);
 
 array_put_row_armor_legs(2,1,"Cloth leggings","cloth","none",0,-1,-1);
